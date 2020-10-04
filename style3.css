@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url('images/bg1.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	perspective: 600px;
+}
+a {
+	text-decoration: none;
+}
+.nav {
+	width: 150px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: white;
+	height: 41rem;
+}
+.nav-head {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #0e99ea;
+	width: 110px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-head:hover {
+	transform: rotateX(360deg);
+	transition: all 0.8s ease-in-out;
+}
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: max-content;
+	height: 100%;
+	margin-bottom: 3.5rem;
+}
+nav ul li {
+	list-style-type: none;
+	font-size: 1.3rem;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	padding-top: 25px;
+}
+nav ul li a {
+	color: white;
+	padding: 10px;
+}
+nav ul li a:hover {
+	background-color: #0e99ea;
+	transition: all 0.2s ease-in-out;
+}
+.nav-tail {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #0e99ea;
+	width: max-content;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-tail a {
+	color: white;
+}
+
+.heart {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: flex-start;
+	width: 800px;
+	height: max-content;
+	margin: 20px 200px;
+	padding: 15px;
+}
+.heart a:hover img {
+	transform: rotateY(360deg);
+	transition: all 0.7s ease-in-out;
+}
+.heart .body-par1 {
+	color: white;
+	font-size: 3rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	word-spacing: 5px;
+}
+.heart .body-par2 {
+	color: #ccc7c5;
+	font-size: 2.7rem;
+	font-weight: bold;
+	line-height: 23px;
+}
